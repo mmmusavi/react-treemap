@@ -1,15 +1,29 @@
 {
     "name": "react-treemap",
     "version": "0.0.1",
-    "description": "",
+    "description": "A customizable and interactive TreeMap component for React.",
     "main": "dist/index.js",
     "types": "react-treemap.d.ts",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "webpack --mode production"
+        "build": "webpack --mode production",
+        "prepare": "npm run build"
     },
-    "author": "MirMohammad Musavi",
-    "license": "ISC",
+    "keywords": [
+        "react",
+        "treemap",
+        "data visualization",
+        "charts"
+    ],
+    "author": "MirMohammad Musavi mir.moh.musavi@gmail.com",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mmmusavi/react-treemap.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mmmusavi/react-treemap/issues"
+    },
+    "homepage": "https://github.com/mmmusavi/react-treemap#readme",
     "peerDependencies": {
         "react": "^17.0.0 || ^18.0.0",
         "react-dom": "^17.0.0 || ^18.0.0"
