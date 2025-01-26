@@ -1,0 +1,21 @@
+# Ignore source files
+src/
+
+# Ignore webpack configuration
+webpack.config.js
+
+# Ignore Babel configuration
+.babelrc
+
+# Ignore TypeScript declaration file
+react-treemap.d.ts
+
+# Ignore Git related files
+.gitignore
+
+# Ignore npm debug logs
+npm-debug.log*
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,27 @@
+{
+    "name": "react-treemap",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "react-treemap.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode production"
+    },
+    "author": "MirMohammad Musavi",
+    "license": "ISC",
+    "peerDependencies": {
+        "react": "^17.0.0 || ^18.0.0",
+        "react-dom": "^17.0.0 || ^18.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.26.7",
+        "@babel/preset-env": "^7.26.7",
+        "@babel/preset-react": "^7.26.3",
+        "babel-loader": "^9.2.1",
+        "css-loader": "^7.1.2",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.97.1",
+        "webpack-cli": "^6.0.1"
+    }
+}
